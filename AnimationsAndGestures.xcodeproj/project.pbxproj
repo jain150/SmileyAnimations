@@ -14,6 +14,8 @@
 		477093061E84845100E26364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477093041E84845100E26364 /* LaunchScreen.storyboard */; };
 		477093111E84845100E26364 /* AnimationsAndGesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477093101E84845100E26364 /* AnimationsAndGesturesTests.swift */; };
 		4770931C1E84845100E26364 /* AnimationsAndGesturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4770931B1E84845100E26364 /* AnimationsAndGesturesUITests.swift */; };
+		4770932A1E8484B700E26364 /* Canvas Assets in Resources */ = {isa = PBXBuildFile; fileRef = 477093291E8484B700E26364 /* Canvas Assets */; };
+		4770932D1E8487CD00E26364 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4770932C1E8487CD00E26364 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		477093171E84845100E26364 /* AnimationsAndGesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsAndGesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4770931B1E84845100E26364 /* AnimationsAndGesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsAndGesturesUITests.swift; sourceTree = "<group>"; };
 		4770931D1E84845100E26364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		477093291E8484B700E26364 /* Canvas Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Canvas Assets"; path = "../../../../../Downloads/Canvas Assets"; sourceTree = "<group>"; };
+		4770932C1E8487CD00E26364 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		477092EF1E84845100E26364 = {
 			isa = PBXGroup;
 			children = (
+				4770932B1E8487AE00E26364 /* ViewControllers */,
 				477092FA1E84845100E26364 /* AnimationsAndGestures */,
 				4770930F1E84845100E26364 /* AnimationsAndGesturesTests */,
 				4770931A1E84845100E26364 /* AnimationsAndGesturesUITests */,
@@ -101,6 +106,7 @@
 				477092FD1E84845100E26364 /* ViewController.swift */,
 				477092FF1E84845100E26364 /* Main.storyboard */,
 				477093021E84845100E26364 /* Assets.xcassets */,
+				477093291E8484B700E26364 /* Canvas Assets */,
 				477093041E84845100E26364 /* LaunchScreen.storyboard */,
 				477093071E84845100E26364 /* Info.plist */,
 			);
@@ -123,6 +129,14 @@
 				4770931D1E84845100E26364 /* Info.plist */,
 			);
 			path = AnimationsAndGesturesUITests;
+			sourceTree = "<group>";
+		};
+		4770932B1E8487AE00E26364 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4770932C1E8487CD00E26364 /* CanvasViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4770932A1E8484B700E26364 /* Canvas Assets in Resources */,
 				477093061E84845100E26364 /* LaunchScreen.storyboard in Resources */,
 				477093031E84845100E26364 /* Assets.xcassets in Resources */,
 				477093011E84845100E26364 /* Main.storyboard in Resources */,
@@ -263,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				477092FE1E84845100E26364 /* ViewController.swift in Sources */,
+				4770932D1E8487CD00E26364 /* CanvasViewController.swift in Sources */,
 				477092FC1E84845100E26364 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
